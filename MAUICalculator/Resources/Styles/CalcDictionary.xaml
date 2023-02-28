@@ -53,13 +53,13 @@
 
     <Style BasedOn="{StaticResource BaseButton}" TargetType="Button"/>
     <Style x:Key="YellowButton"
-           BasedOn="{StaticResource BaseButtton}"
+           BasedOn="{StaticResource BaseButton}"
            TargetType="Button">
         <Setter Property="TextColor"
                 Value="{StaticResource YellowColor}"/>
     </Style>
     <Style x:Key="RedButton"
-           BasedOn="{StaticResource BaseButtton}"
+           BasedOn="{StaticResource BaseButton}"
            TargetType="Button">
         <Setter Property="TextColor"
                 Value="{StaticResource RedColor}"/>
